@@ -7,15 +7,17 @@ import java.util.Collections;
  * Created by William on 2015-05-25.
  */
 public class Deck {
-
+    String title;
     private ArrayList<FlashCard> deck;
 
-    public Deck(){
+    public Deck(String title){
+        this.title = title;
         deck = new ArrayList<FlashCard>();
     }
 
-    public Deck(String questionFiles, String answerFiles){
+    public Deck(String title, String questionFiles, String answerFiles){
         //TODO create deck from txt files
+        this.title = title;
     }
 
     public void addCard(FlashCard card){

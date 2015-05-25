@@ -7,4 +7,10 @@
     <string name="deck_view">View decks</string>
     <string name="browse_from_files">Browse for .txt files</string>
     <string name="help">Help</string>
+    <string name="description">This is a simple flash card app,
+                                you can create a deck of flash cards on the device,
+                                or use two .txt files that you have created elsewhere.
+                                WARNING: Does not check validity of the .txt files.
+                                 Your files must have the same number of questions and answers.
+                                 </string>
 </resources>

@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ViewDecks"
+            android:label="FlashCards"
+            ></activity>
+
+       <activity android:name=".DeckCreations"
+           android:label="FlashCards"
+           ></activity>
+
+        <activity android:name=".FileBrowserCreation"
+            android:label="FlashCards"
+            ></activity>
+
+        <activity android:name=".HelpScreen"
+            android:label="FlashCards"
+            ></activity>
     </application>
 
 </manifest>
