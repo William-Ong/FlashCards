@@ -20,6 +20,10 @@ public class Deck {
         this.title = title;
     }
 
+    public String getTitle(){
+        return title;
+    }
+
     public void addCard(FlashCard card){
         deck.add(card);
     }
