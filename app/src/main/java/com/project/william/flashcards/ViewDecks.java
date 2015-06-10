@@ -20,6 +20,7 @@ public class ViewDecks extends Activity {
         setContentView(R.layout.deck_view_screen);
         ArrayList<Deck> newDeck = new ArrayList<Deck>();
         newDeck.add(new Deck("test1"));
+
         newDeck.add(new Deck("test2"));
         DeckAdapter testAdapter = new DeckAdapter(newDeck, this);
 

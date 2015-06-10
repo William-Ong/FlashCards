@@ -13,4 +13,7 @@
                                 WARNING: Does not check validity of the .txt files.
                                  Your files must have the same number of questions and answers.
                                  </string>
+    <string name="next_card">NEXT CARD</string>
+    <string name="edit_btn">EDIT CARD</string>
+<string name="show_answer_btn">SHOW ANSWER</string>
 </resources>

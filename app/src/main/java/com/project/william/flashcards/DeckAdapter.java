@@ -1,6 +1,7 @@
 package com.project.william.flashcards;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -11,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.project.william.flashcards.StorageHelperClasses.Deck;
 
@@ -90,6 +92,12 @@ public class DeckAdapter extends RecyclerView.Adapter<DeckAdapter.MyViewHolder> 
                 selectedItems.put(getPosition(), true);
                 layout.setSelected(true);
             }
+
+            int pos = getPosition();
+            Toast.makeText(context, ""+pos, Toast.LENGTH_SHORT).show();
+            Intent goToCardView = new Intent(context, CardView.class);
+            goToCardView.putExtra("DeckPosition", pos);
+            context.startActivity(goToCardView);
         }
 
         @Override
